@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Smart Apartment Maintenance</string>
+    <string name="logout">Logout</string>
+    <string name="welcome_you_are_logged_in">Welcome! You are logged in</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="not_registered_sign_up_here">Not registered? Sign Up here</string>
+    <string name="sign_in">Sign In</string>
+    <string name="already_have_an_account_sign_in_here">Already have an account? Sign in here</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_amount">Enter Amount</string>
+    <string name="enter_date">Enter Date</string>
+    <string name="enter_description">Enter Description</string>
+    <string name="submit">Submit</string>
+    <string name="flat_no">Flat no</string>
+    <string name="welcome">WELCOME</string>
+    <string name="description">description</string>
+    <string name="name">name</string>
+    <string name="apartmentname">apartmentname</string>
+    <string name="apartmentcode">apartmentcode</string>
+    <string name="title_activity_demo">demo</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="sam">sam</string>
+    <string name="Rs">\u20B9</string>
+</resources>

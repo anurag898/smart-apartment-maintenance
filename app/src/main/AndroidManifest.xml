@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myapart">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ResidentTransactionActivity"
+            android:parentActivityName=".ResidentActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ResidentLoginActivity"
+            android:parentActivityName=".FirstActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ResidentComplaintActivity"
+            android:parentActivityName=".ResidentActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SecretaryComplaintActivity"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".ResidentNoticeActivity"
+            android:parentActivityName=".ResidentActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".SecretaryNoticeActivity"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResidentActivity"
+            android:parentActivityName=".FirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FirstActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".demo" />
+        <activity
+            android:name=".splash"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".EditprofileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeFragment"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AccountActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TransactionActivity"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CreditActivity"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DebitActivity"
+            android:parentActivityName=".HomeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivity"
+            android:parentActivityName=".FirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".FirstActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainActivity"
+            android:parentActivityName=".LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ForgotActivity"
+            android:parentActivityName=".LoginActivity"
+            android:screenOrientation="portrait" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

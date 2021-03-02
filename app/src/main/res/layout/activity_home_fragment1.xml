@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+    
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#24121212">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/back">
+            
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:src="@drawable/apart"
+                android:layout_gravity="center"/>
+            <TextView
+                android:id="@+id/Apt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Smart Apartment Maintenance"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="20sp"
+                />
+        </LinearLayout>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="190dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                >
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    app:cardCornerRadius="10dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="100dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/debit"
+                            android:layout_centerInParent="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Debit"
+                            android:textSize="16sp"
+                            android:layout_below="@+id/imageView1"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/debit"
+                            android:background="@android:color/transparent"/>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/credit"
+                            android:layout_centerInParent="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Credit"
+                            android:textSize="16sp"
+                            android:layout_below="@+id/imageView2"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/credit"
+                            android:background="@android:color/transparent"/>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="125dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                >
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginRight="5dp"
+                    app:cardCornerRadius="10dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/transaction"
+                            android:layout_centerInParent="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Transaction"
+                            android:textSize="16sp"
+                            android:layout_below="@+id/imageView3"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/transaction"
+                            android:background="@android:color/transparent"/>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="5dp"
+                    app:cardCornerRadius="10dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/notify"
+                            android:layout_centerInParent="true"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Notify"
+                            android:textSize="16sp"
+                            android:layout_below="@+id/imageView4"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/notify"
+                            android:background="@android:color/transparent"/>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                >
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="10dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/balance"
+                            android:layout_marginLeft="170dp"
+                            android:layout_marginTop="10dp"
+                           />
+
+                        <TextView
+                            android:id="@+id/textview8"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Available Balance"
+                            android:textSize="16sp"
+                            android:layout_below="@+id/imageView5"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"/>
+                        <TextView
+                            android:id="@+id/bal"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/Rs"
+                            android:textSize="25dp"
+                            android:layout_below="@+id/textview8"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"
+                            android:textColor="#121212"
+                            />
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/balButton"
+                            android:background="@android:color/transparent"/>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp"
+                >
+                <androidx.cardview.widget.CardView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="10dp"
+                    >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <ImageView
+                            android:id="@+id/imageView6"
+                            android:layout_width="50dp"
+                            android:layout_height="50dp"
+                            android:src="@drawable/complaint"
+                            android:layout_marginLeft="170dp"
+                            android:layout_marginTop="10dp"
+                            />
+
+                        <TextView
+                            android:id="@+id/textview9"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Complaint"
+                            android:textSize="16sp"
+                            android:layout_below="@+id/imageView6"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="10dp"/>
+                        <Button
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:id="@+id/complaint"
+                            android:background="@android:color/transparent"/>
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+        
+    </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>
